@@ -1,23 +1,23 @@
 // chiedo a utente sua mail
+alert('ciao');
+
+var mail_utente = prompt('inserisci e-mail')
+
+console.log(mail_utente);
 
 
-var mailUtente = prompt("iserisci e mail")
+// controllo se mail_utente fa parte della mail list
 
-console.log(mailUtente);
+var mail_list = ["quarto.quinto@gmail.com","sesto.settimo@gmail.com,ottavo.nono@gmail.com"]
 
-// controllo se è dentro mail list
-
-var listaMail = ['enzo.benzo@gmail.com', 'quartoquinto@gmail.com', 'settimio.severo@gmail.com']
-console.log(listaMail);
-for (var i = 0; i < listaMail.length; i++) {
-    listaMail[i]
-}
-
-if (mailUtente=listaMail[i]) {
-    console.log(la tua mail è valida);
+console.log(mail_list);
+for (var i = 0; i < mail_list.length; i++) {console.log('sei in lista');
 
 }
 
-else {
-    console.log(mail non valida);
+if (mail_utente=mail_list[i]) {
+
 }
+ else {
+
+ }console.log('non sei in lista');
